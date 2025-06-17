@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+    <parameter name="fm">10</parameter>
+    <parameter name="dy">10</parameter>
+    <parameter name="dx">10</parameter>
+    <parameter name="dz">10</parameter>
+    <parameter name="pml">50</parameter>
+    <parameter name="ny">676</parameter>    
+    <parameter name="nx">676</parameter>
+    <parameter name="nz">210</parameter>
+    <parameter name="disx_shot_grid">10</parameter>
+    <parameter name="disy_shot_grid">10</parameter>
+    <parameter name="sourcex_min_grid">100</parameter>
+    <parameter name="sourcex_max_grid">200</parameter>
+    <parameter name="sourcey_min_grid">100</parameter>
+    <parameter name="sourcey_max_grid">200</parameter>
+    <parameter name="sz">0</parameter>
+    <parameter name="gz">0</parameter>        
+    <parameter name="scale_y">1</parameter>
+    <parameter name="scale_x">1</parameter>
+    <parameter name="gpu_num">8</parameter>
+    <parameter name="id_of_group">4</parameter>
+    <parameter name="dt">5e-4</parameter>
+    <parameter name="t">5.0</parameter>
+    <parameter name="fvel">/path/to/vel.bin</parameter>
+    <parameter name="outfile">/path/to/output.segy</parameter>
+</parameters>
