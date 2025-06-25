@@ -1,3 +1,6 @@
+/* Copyright (c) Colorado School of Mines, 2011.*/
+/* All rights reserved.                       */
+
 /* TYPEDEFS */
 typedef struct {	/* segy - trace identification header */
 

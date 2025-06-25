@@ -1,9 +1,27 @@
 # 3D Acoustic Wave Simulation with Multi-GPU NCCL Communication and MPI Group Parallelism
 
-This project implements a 3D acoustic wave finite-difference simulation using CUDA and MPI. It leverages **NCCL** for communication between multiple GPUs in a domain decomposition scheme, and employs **MPI** for shot-domain parallelism.
+## Copyright statements
 
+This project uses `OpenMPI` for distributed-memory parallelism via MPI.
+OpenMPI is an open-source implementation of the Message Passing Interface, licensed under the New BSD License.
+
+This project uses the `NVIDIA CUDA Toolkit` for GPU programming.
+CUDA is provided by NVIDIA under the NVIDIA Software License Agreement.
+
+This project uses `NCCL` for fast multi-GPU communication.
+NCCL is distributed by NVIDIA under a permissive BSD-like license.
+
+This project uses `libxml2` for XML configuration parsing.
+libxml2 is developed by the GNOME project and released under the MIT License.
+
+This project uses `segy.h` from the open-source Seismic Unix (SU) package
+developed by the Colorado School of Mines, which is released under a BSD-style license.
+
+---
 
 ## Project Structure
+
+This project implements a 3D acoustic wave finite-difference simulation using CUDA and MPI. It leverages **NCCL** for communication between multiple GPUs in a domain decomposition scheme, and employs **MPI** for shot-domain parallelism.
 
 - `main.cpp`: Main framework
 - `kernel.cu`: CUDA kernel implementations
